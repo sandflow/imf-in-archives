@@ -1,0 +1,195 @@
+html {
+  font-size: calc(1.1 * 1em);
+  font-family: Arial, Helvetica, sans-serif;
+  line-height: 1.75;
+  max-width: 54em;
+  margin: auto;
+}
+
+/* header */
+
+#logo {
+  height: 30%;
+  width: 30%;
+}
+
+#author {
+  color:darkgray;
+  font-size: 0.9rem;
+}
+
+#abstract {
+  margin: 2em 0;
+  padding: 0 1em;
+  font-size: 1.2rem;
+  font-style: italic;
+}
+
+/* footer */
+
+footer {
+  margin-top: 3rem;
+  border-top: 0.5px black solid;
+}
+
+/* headers */
+
+h1 {
+  margin-top: 0;
+  font-size: 2.5rem;
+  color:midnightblue;
+}
+
+h2 {
+  margin-top: 1.5em;
+  font-size: 1.6rem;
+  color:midnightblue;
+}
+
+h2 span.label {
+  margin-right: 1em;
+}
+
+
+h3 {
+  margin-top: 1em;
+  font-size: 1.2rem;
+}
+
+h3 span.label {
+  margin-right: 1em;
+}
+
+h4 {
+  margin-top: 1em;
+  font-size: 1.2rem;
+}
+
+h4 span.label {
+  margin-right: 1em;
+}
+
+
+h5 {
+  margin-top: 1em;
+  font-size: 1.2rem;
+}
+
+h6 {
+  margin-top: 1em;
+  font-size: 1.2rem;
+}
+
+/* annexes */
+
+section.annex > h2 {
+  text-align: left;
+}
+
+.annex-cat {
+  font-weight: normal;
+}
+
+section.annex > h2 span.label {
+  margin-right: 0;
+}
+
+/* note */
+
+.note {
+  font-size: 0.9rem;
+  font-style: italic;
+}
+
+/* tables */
+
+table {
+  font-size: 0.8rem;
+  border-collapse: collapse;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+table, th, td {
+  border: 1px solid black;
+  padding: 5px;
+}
+
+thead th {
+  background-color: lightgrey;
+  font-weight: bold;
+  text-align: center;
+}
+
+table > caption {
+  margin-top: 2em;
+  margin-bottom: 1em;
+  font-weight: bold;
+  font-size: 0.8rem;
+  text-align: center;
+}
+
+/* images */
+
+figure > img {
+  max-height: 100%;
+  max-width: 100%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* figures */
+
+figure.equation > figcaption {
+  float:right;
+  font-size: 0.9rem;
+  font-weight: normal;
+  margin:0;
+}
+
+figure.equation {
+  margin:0;
+  text-align: center;
+}
+
+figcaption {
+  margin-top: 1em;
+  margin-bottom: 2em;
+  font-weight: bold;
+  font-size: 0.8rem;
+  text-align: center;
+}
+
+figure {
+  margin-top: 2em;
+}
+
+/* references */
+
+#sec-references ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+/* code */
+
+pre {
+  padding: 0.5em 0.5em;
+
+  background-color: lightgrey;
+
+  border-top: 1px solid grey;
+  border-bottom: 1px solid grey;
+
+  font-size: 0.8rem;
+  font-family: Consolas, Monaco, monospace;
+
+  line-height: 1.4;
+
+  overflow-x: auto;
+}
+
+code {
+  font-family: Consolas, Monaco, monospace;
+}
