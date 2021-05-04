@@ -99,6 +99,15 @@ section.annex > h2 span.label {
   margin-right: 0;
 }
 
+/* images */
+
+.inline-img {
+  display: block;
+  max-width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
 /* note */
 
 .note {
@@ -116,7 +125,7 @@ table {
 }
 
 table, th, td {
-  border: 1px solid black;
+  border: 1px solid #000000;
   padding: 5px;
 }
 
