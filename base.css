@@ -6,6 +6,11 @@ html {
   margin: auto;
 }
 
+/* watermark */
+
+.with-draft-watermark {
+  background-image: url('data:image/svg+xml;utf8,<svg style="transform:rotate(-45deg)" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 60 50"><text x="0" y="30" font-family="Arial, Helvetica, sans-serif" fill="aliceblue">DRAFT</text></svg>');
+}
 /* header */
 
 #logo {
